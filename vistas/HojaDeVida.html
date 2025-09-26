@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hoja de Vida</title>
+    <style>
+        /* Modelo de caja */
+        .contenedor {
+            max-width: 650px;
+            margin: 20px auto;       /* Centrar horizontalmente */
+            padding: 20px;           /* Espacio interno */
+            border: 2px solid #007BFF; /* Borde azul */
+            border-radius: 8px;      /* Bordes redondeados */
+            box-sizing: border-box;  /* Padding y borde dentro del ancho */
+            background-color: #f0f8ff; /* Fondo muy claro */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../Index.html">Ir Al Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <Center><h1>Hoja de Vida</h1></Center> 
+
+    <div class="contenedor">
+        <form action="#" method="post">
+            <div>
+                <label for="nombre">Nombre y Apellido:</label><br />
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo" maxlength="50" minlength="3" size="40" required />
+            </div>
+            <br>
+
+            <div>
+                <label for="email">Correo Electrónico:</label><br />
+                <input type="email" id="email" name="email" placeholder="Ingrese su correo" size="40" required />
+            </div>
+            <br>
+
+            <div>
+                <label for="telefono">Teléfono:</label><br />
+                <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su teléfono" pattern="09[0-9]{8}" size="20" required />
+            </div>
+            <br>
+
+            <div>
+                <label for="direccion">Dirección:</label><br />
+                <input type="text" id="direccion" name="direccion" placeholder="Ingrese su dirección" maxlength="100" size="50" />
+            </div>
+            <br>
+
+            <div>
+                <label for="educacion">Ingrese educación:</label><br />
+                <textarea id="educacion" name="educacion" rows="4" cols="50" required></textarea>
+            </div>
+            <br>
+
+            <div>
+                <label for="experiencia">Experiencia Laboral:</label><br />
+                <textarea id="experiencia" name="experiencia" rows="4" cols="50" placeholder="Describa su experiencia laboral" required></textarea>
+            </div>
+            <br>
+
+            <div>
+                <label for="habilidades">Habilidades:</label><br />
+                <textarea id="habilidades" name="habilidades" rows="3" cols="50" placeholder="Menciona tus destrezas laborales" required></textarea>
+            </div>
+            <br>
+
+            <div>
+                <input type="submit" value="Enviar Hoja de Vida" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>
