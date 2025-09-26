@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/style.css">
     <title>Tablas</title>
     <style>
-     body{
+        /* body{
         margin: auto;
-        color: rgb(0,255,68);
+        color: rgb(201, 234, 210);
+        background-color: rgb(248, 2, 2); Aqui va comentario
+        .Contenedor{
         
-     }
+            background: #fff;
+            color: rgb(76, 0, 255);
+        }
+         Utilizamos el elemento ID 
+
+         #titulo{
+            color: blue;
+            text-align: center;
+            font-size: 15px;
+
+         }
+     */
     </style>
 </head>
-<body>
-    <h1 style="color: red; font-size: 25px; text-align: center; background: yellow; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">tabla de posiciones campeonato ecuatoriano 2025</h1>
-    <div style="background-color: blue;">
+
+<body class="titulo-contenedor">
+    <div>
+    <h1>tabla de posiciones campeonato ecuatoriano 2025</h1>
+    </div>
+    <div>
         <table border="1px">
             <thead>
-<tr>
-    <th colspan="2"> Id Equipo</th>
-    <th> Nombre Equipo</th>
-    <th>partidos jugados</th>
-    <th>partidos ganados</th>
-    <th>partidos perdidos</th>
-    <th>partidos empatados</th>
-    <th>goles a favor</th>
-    <th>goles en contra</th>
-    <th>diferencia de goles</th>
-    <th>puntos </th>
-</tr>
+                <tr>
+                    <th colspan="2"> Id Equipo</th>
+                    <th> Nombre Equipo</th>
+                    <th>partidos jugados</th>
+                    <th>partidos ganados</th>
+                    <th>partidos perdidos</th>
+                    <th>partidos empatados</th>
+                    <th>goles a favor</th>
+                    <th>goles en contra</th>
+                    <th>diferencia de goles</th>
+                    <th>puntos </th>
+                </tr>
             </thead>
             <tbody>
                 <tr>
@@ -44,7 +62,7 @@
                     <td>-47</td>
                     <td>13</td>
                 </tr>
-                 <tr>
+                <tr>
                     <td rowspan="2">1</td>
                     <td>Barcelona SC</td>
                     <td>18</td>
@@ -65,7 +83,8 @@
         </table>
     </div>
     <div>
-        <a href="../index.html" style="background-color: yellow;">Ir a Index</a>
+        <a href="../index.html" class="contenedor">Ir a Index</a>
     </div>
 </body>
+
 </html>
