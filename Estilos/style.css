@@ -4,18 +4,65 @@
     margin: auto;
     /*  color: rgb(36, 160, 40);
     background-image: url(../img/image.jpg);
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
+    background-size: cover;*/
 }
 
 .titulo-contenedor {
 
-  
-
     border: 1px solid #000;
-    width: 450px;
+    width: 700px;
     height: 70px;
     padding: 20px 50px 20px 50px;
     margin: 50px 20px 50px 20px;
     border-radius: 5%;
     box-shadow: rgba(rgb(0, 0, 0), rgb(0, 255, 0), blue, alpha);
+}
+
+.contenedor1 {
+    width: 200px;
+    border: 5px, solid #000;
+    position: relative;
+    top: -100px;
+    left: 200px;
+}
+
+.contenedor{
+    width: 90%;
+    border: 1px, solid #000;
+}
+
+.tabla{
+
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #07ab0a;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: #953030a3;
+    font-weight: bold;
+}
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
+/*Pseudo hover*/
+tr:hover{
+    background-color: rgb(159, 206, 206);
+}
+a{
+    color: #0066cc;
+    text-decoration: none;
+}
+/* Cambio de color con el cursos al a*/
+a:hover{
+    color: #ff001e;
+}
+/*Cambio de color cuando se visita*/
+
+a :visited{
+  color: #0b9706;  
 }

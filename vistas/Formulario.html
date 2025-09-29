@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/formulario.css">
     <title>Manejo Formulario</title>
 </head>
 
@@ -22,31 +23,32 @@
             <label for="usuario">Ingrese el usuario</label>
             <input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario" maxlength="20"
                 minlength="3">
-            <br><br>
+
             <div>
                 <label for="clave">Ingrese Contraseña:</label>
                 <input type="password" id="clave" name="clave" placeholder="Ingrese Contraseña">
-                <br><br>
+        
             </div>
             <div>
                 <label for="edad">Ingrese La Edad del estudiante</label>
                 <input type="Number" name="edad" id="edad" maxlength="3" placeholder="Ingrese su edad" required>
-                <br><br>
+       
             </div>
             <div>
                 <label for="Fecha">Ingrese fecha de nacimiento</label>
                 <input type="date" name="fecha" id="fecha">
-                <br><br>
+      
             </div>
 
             <div>
+                <label for="">Selecciona el color</label>
                 <select name="color" id="color">
-
+                    
                     <option value="Azul">Amarillo</option>
                     <option value="Rojo">Rojo</option>
                     <option value="verde">verde</option>
                 </select>
-                <br><br>
+           
 
             </div>
             <!--Texto de are -->
@@ -57,22 +59,22 @@
             </div>
 
             <div>
-                <br><br>
+               
                 <label for="genero ">Seleccion el genero</label>
-                <br><br>
+               
                 <label for="">Masculino</label>
                 <input type="radio" name="genero" id="masculino" value="masculino">
-                <br><br>
+               
                 <label for="">femenino</label>
                 <input type="radio" name="genero" id="femenino" value="femenino">
-                <br><br>
+                
 
 
 
-
+            <label for="">Gay</label>
 
                 <input type="radio" name="genero" id="otro" value="otro">
-                <br><br>
+          
             </div>
             <!--Crear boton-->
             <input type="submit" value="Enviar Formulario">
